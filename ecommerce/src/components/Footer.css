@@ -1,0 +1,71 @@
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+.close-flex {
+  display: flex;
+}
+
+.details ul {
+  position: relative;
+  top: 203px;
+  font-weight: bold;
+}
+
+.rules h2 {
+  font-size: 1.7rem;
+  color: lightseagreen;
+  font-weight: bold;
+}
+
+.container-fluid-custom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.navigate,
+.links,
+.reach-us {
+  flex: 1;
+  background: black;
+  color: white;
+  padding: 20px;
+}
+.icons a {
+  text-decoration: none;
+  color: inherit;
+}
+.card-footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.list-group-item {
+  background-color: black;
+  color: white;
+}
+
+.footer-icon {
+  font-size: 24px;
+}
+
+.icons .footer-icon {
+  margin-right: 16px;
+}
+
+.event-icon {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.card-header-custom {
+  border-bottom: 2px solid #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
