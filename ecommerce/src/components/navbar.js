@@ -31,6 +31,16 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
+                to="/about"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                About Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
                 to="/products"
                 activeClassName="active"
                 className="nav-links"
