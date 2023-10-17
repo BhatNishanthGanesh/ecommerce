@@ -1,0 +1,134 @@
+.heading {
+  text-align: center;
+  color: #454343;
+  font-family: "Italiana", serif;
+  letter-spacing: 2px;
+  font-size: 4.4rem;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+
+.heading {
+    font-size: 3rem;
+    color: #333;
+}
+
+.heading:after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  height: 4rem;
+  width: 18rem;
+  transform: translateX(-50%);
+}
+
+.white-heading:after {
+  background: url(https://i.ibb.co/d7tSD1R/heading-line-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(10%) saturate(140%);
+}
+
+.heading span {
+  font-size: 1.8rem;
+  display: block;
+  font-weight: 500;
+}
+
+.white-heading span {
+  color: #333;
+}
+
+.testimonial {
+  background: linear-gradient(to right, #fbf4cc, #fceabb, #facb4d);
+
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  padding: 4rem 0;
+  margin-top: 8rem 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.testimonial4_control_button .carousel-control {
+  top: 58%;
+  opacity: 0.5;
+  width: 3rem;
+  bottom: auto;
+  height: 3rem;
+  font-size: 1;
+  cursor: pointer;
+
+  overflow: hidden;
+  line-height: 38px;
+  text-shadow: none;
+  text-align: center;
+  position: absolute;
+  background: transparent;
+  text-transform: uppercase;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.6s cubic-bezier(0.3, 1, 0, 1);
+  transition: all 0.6s cubic-bezier(0.3, 1, 0, 1);
+  filter: brightness(40%) saturate(140%);
+}
+
+.testimonial4_control_button .carousel-control-prev {
+  left: 7%;
+}
+
+.testimonial4_control_button .carousel-control-next {
+  right: 7%;
+}
+
+.testimonial4_slide {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.testimonial4_slide img {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 15rem;
+  height: 15rem;
+  margin: auto;
+  display: block;
+  text-align: center;
+  position: relative;
+  border-radius: 50%;
+}
+
+.testimonial4_slide p {
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  word-spacing: 1.5px;
+  margin: 4.8rem 0 2rem 0;
+}
+
+.testimonial4_slide h4 {
+  color: #555;
+  font-size: 1.6rem;
+}
+
+.testimonial .carousel {
+  padding-bottom: 50px;
+}
+
+.testimonial .carousel-control-next-icon,
+.testimonial .carousel-control-prev-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #000000;
+}

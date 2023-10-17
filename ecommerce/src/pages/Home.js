@@ -2,11 +2,15 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import Banner from "../components/banner";
+import NewsLetter from "../components/subscribe";
+import Testimonial from "../components/testimonial";
 
 const Home = () => {
   return (
     <>
       <Navbar />
+      <Banner/>
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6 offset-md-3 text-center">
@@ -65,6 +69,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Testimonial/>
+      <NewsLetter/>
       <Footer/>
     </>
   );
