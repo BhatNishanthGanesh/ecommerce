@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Profile from "./components/profile"
 import ReviewPage from "./components/ReviewPage";
 import Footer from "./components/footer";
+import ContactForm from "./components/ContactForm";
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
       <Route path="/footer" element={<Footer/>}></Route>
       <Route path="/profile" element={<Profile/>}></Route>
       <Route path="/review" element={<ReviewPage/>}></Route>
+      <Route path="/contact" element={<ContactForm/>}></Route>
     </Routes>
      
     </BrowserRouter>
