@@ -1,0 +1,80 @@
+.newsletter-bg {
+  background: linear-gradient(to left bottom, #434343, #000000);
+  border-bottom: 1px solid #046cf1;
+}
+
+.news-letter {
+  padding: 2.4rem 4.4rem;
+  color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+}
+
+.news-letter .info h4 {
+  font-size: 1.4rem;
+}
+
+.news-letter .info p {
+  font-size: 1rem;
+  word-spacing: 0.5px;
+  margin-top: 1rem;
+}
+
+.news-letter .info span {
+  color: #e9c600;
+  font-weight: 500;
+}
+
+.news-letter .form {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.news-letter .form input {
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 3px;
+  border: 2px solid white;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  width: 10rem;
+  padding: 10px;
+  font-size: larger;
+  font-weight: 500;
+  color: #fff;
+  background: #046cf1;
+  border: none;
+  height: 3rem;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.btn:hover {
+  background: #0d4ad9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .btn {
+    font-size: large;
+    width: 9rem;
+  }
+}
