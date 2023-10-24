@@ -1,0 +1,36 @@
+/* ReviewCard.css */
+.review-card {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 16px;
+    text-align: center;
+    width: 50vh;
+   
+  }
+  
+  .review-image {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .review-name {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
+  .review-message {
+    font-size: 14px;
+  }
+  
+/* ReviewPage.css */
+.review-page {
+    text-align: center;
+  }
+  
+  .review-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
