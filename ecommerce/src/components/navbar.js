@@ -65,7 +65,16 @@ const Navbar = () => {
                 activeClassName="active"
                 className="nav-links"
               >
-                SignIn / Register
+                SignIn 
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/signup"
+                activeClassName="active"
+                className="nav-links"
+              >
+                Register
               </Link>
             </li>
           </ul>
