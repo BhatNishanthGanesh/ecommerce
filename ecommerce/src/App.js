@@ -11,6 +11,7 @@ import AboutUs from './pages/About'
 import Login from './pages/Login'
 import ReviewPage from "./components/ReviewPage";
 import ShoppingPage from "./pages/ShoppingPage";
+import CheckoutPage from "./pages/checkout";
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ function App() {
       <Route path="/cart" element={<ShoppingPage/>}></Route>
       <Route path="/footer" element={<Footer/>}></Route>
       <Route path="/profile" element={<Profile/>}></Route>
+      <Route path="/checkout" element={<CheckoutPage/>}></Route>
       
     </Routes>
      
