@@ -10,11 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.2",
     "react": "^18.2.0",
-<<<<<<< HEAD
     "react-bootstrap": "^2.9.1",
-=======
-    "react-bootstrap": "^2.9.0",
->>>>>>> 9ec7642c6d2374f75e7e09a6277089e7689a5b8f
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
