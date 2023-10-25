@@ -13,6 +13,7 @@ import ReviewPage from "./components/ReviewPage";
 import ShoppingPage from "./pages/ShoppingPage";
 
 import CheckoutPage from "./pages/checkout";
+import SignUpPage from "./pages/Signup";
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +26,8 @@ function App() {
       <Route path="/profile" element={<Profile/>}></Route>
       <Route path="/contacts" element={<ContactForm/>}></Route>
       <Route path="/checkout" element={<CheckoutPage/>}></Route>
+      <Route path="/signup" element={<SignUpPage/>}></Route>
+      
       
     </Routes>
      
