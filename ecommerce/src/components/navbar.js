@@ -41,12 +41,12 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/checkout"
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                Products
+                Checkout
               </Link>
             </li>
             <li className="nav-item">
@@ -65,7 +65,16 @@ const Navbar = () => {
                 activeClassName="active"
                 className="nav-links"
               >
-                SignIn / Register
+                SignIn 
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/signup"
+                activeClassName="active"
+                className="nav-links"
+              >
+                Register
               </Link>
             </li>
           </ul>
