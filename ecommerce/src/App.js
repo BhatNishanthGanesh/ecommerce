@@ -7,11 +7,18 @@ import Profile from "./components/profile"
 
 import Footer from "./components/footer";
 import ContactForm from "./components/ContactForm";
+import AboutUs from './pages/About'
+import Login from './pages/Login'
+import ReviewPage from "./components/ReviewPage";
+import ShoppingPage from "./pages/ShoppingPage";
 function App() {
   return (
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home/>}></Route>
+      <Route path="/about" element={<AboutUs/>}></Route>
+      <Route path="/login" element={<Login/>}></Route>
+      <Route path="/cart" element={<ShoppingPage/>}></Route>
       <Route path="/footer" element={<Footer/>}></Route>
       <Route path="/profile" element={<Profile/>}></Route>
       
